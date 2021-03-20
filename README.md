@@ -41,7 +41,7 @@
   This project is [mit](https://choosealicense.com/licenses/mit/) licensed.
 
   ## Features
-  Coming soon maybe 
+  Coming soon maybe!
 
   ## Tests
   No tests required at this time 
