@@ -67,11 +67,10 @@
   Email: robertcjohnson1984@gmail.com 
 
   ## Designed and built by
-  Author(s): Rob Johnson, Aubry Mark, Sergio Campos, Trae McNabb  
+  Author(s): 
+  * Rob Johnson (https://github.com/johnsonr84/) 
+  * Aubry Mark (https://github.com/Aubsma)
+  * Sergio Campos (https://github.com/surge3216)
+  * Trae McNabb  (https://github.com/trae1357)
 
-  GitHub Contributors:
-  https://github.com/johnsonr84/ 
-  https://github.com/surge3216
-  https://github.com/trae1357
-  https://github.com/Aubsma
   
