@@ -30,7 +30,7 @@
   <tr>
     <td>MeoWoof App Login Page</td>
      <td>MeoWoof Sign Up Page</td>
-     <td>MeoWood Dashboard Page</td>
+     <td>MeoWoof Dashboard</td>
   </tr>
   <tr>
     <td><img src="/screenshots/login-design.png" height=400 alt="screenshot of MeoWoof login page"></td>
