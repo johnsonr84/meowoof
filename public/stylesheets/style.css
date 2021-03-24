@@ -2,3 +2,24 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
+
+body {
+  font-family: Roboto;
+}
+
+.navbar {
+  background-color: #619DD0; 
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #619DD0;
+  font-family: 'Loved by the King', cursive; 
+  color: white;
+  height: 100px; 
+  font-size: 32px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: auto;
+}
