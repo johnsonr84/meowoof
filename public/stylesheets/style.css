@@ -15,9 +15,33 @@ body {
   margin-bottom: 40px;
 }
 
+.pet-image {
+  height: 50px;
+  width: 50px;
+}
+
+.pet-name {
+  color: #7E4AA2;
+  font-size: 18px;
+}
+
 .dogcat-banner {
   height: 110px;
   margin-bottom: -20px;
+}
+
+.card {
+  width: 150px;
+}
+
+.card-action a {
+  font-size: 8px;
+}
+
+.card-content {
+  font-size: 8px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 footer {
