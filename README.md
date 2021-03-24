@@ -23,7 +23,7 @@
    The Wag App will feature a map and display the route walked for the day with date & time stamp, and distance/ duration walked. This feature will also display in real time so that the owner may see if/ where their dog sitter/ helper is walking their furball in real time!
 
   ## Project URL
-  https://github.com/johnsonr84/the-wag-app
+  https://github.com/johnsonr84/meowoof
 
   ## Mock-Up
   ![MeoWoof login demo png] 
