@@ -25,14 +25,19 @@
   ## Project URL
   https://github.com/johnsonr84/meowoof
 
-  ## Mock-Up
-  ![MeoWoof login demo png] 
-  <br>
-  <img src="/screenshots/login-design.png" alt="screenshot of MeoWoof login page" height="400"/>
-  <br>
-  ![MeoWoof dashboard demo png] 
-  <br>
-  <img src="/screenshots/dashboard-design.png" alt="screenshot of MeoWoof login page" height="400"/>
+  ## Mock-Ups
+  <table>
+  <tr>
+    <td>MeoWoof App Login Page</td>
+     <td>MeoWoof Sign Up Page</td>
+     <td>MeoWood Dashboard Page</td>
+  </tr>
+  <tr>
+    <td><img src="/screenshots/login-design.png" height=400 alt="screenshot of MeoWoof login page"></td>
+    <td><img src="screenshots/sign-up-design.png" height=400 alt="screenshot of MeoWoof sign up page"></td>
+    <td><img src="/screenshots/dashboard-design.png" height=400 alt="screenshot of MeoWoof dashboard page"></td>
+  </tr>
+ </table>
 
   ## Installation 
   No installations required at this time 
