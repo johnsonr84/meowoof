@@ -26,7 +26,7 @@
   https://github.com/johnsonr84/the-wag-app
 
   ## Mock-Up
-  ![MeoWoof demo png](/screenshots/login-design.png)
+  ![MeoWoof demo png](/screenshots/login-design.png =200x)
 
   ## Installation 
   No installations required at this time 
