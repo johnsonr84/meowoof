@@ -29,6 +29,7 @@
   ![MeoWoof login demo png] 
   <br>
   <img src="/screenshots/login-design.png" alt="screenshot of MeoWoof login page" height="400"/>
+  <br>
   ![MeoWoof dashboard demo png] 
   <br>
   <img src="/screenshots/dashboard-design.png" alt="screenshot of MeoWoof login page" height="400"/>
