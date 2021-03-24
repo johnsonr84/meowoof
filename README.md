@@ -1,8 +1,8 @@
-# the-wag-app
+# MeoWoof
 
   [![github-follow](https://img.shields.io/github/followers/johnsonr84?label=Follow&logoColor=lightgrey&style=social)](https://github.com/johnsonr84)
-  [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/readme-generator?color=orange)](https://github.com/johnsonr84/readme-generator)
-  [![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/readme-generator?color=yellow)](https://github.com/johnsonr84/readme-generator)
+  [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/readme-generator?color=orange)](https://github.com/johnsonr84/meowoof)
+  [![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/readme-generator?color=yellow)](https://github.com/johnsonr84/meowoof)
   [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
   ## Table of Contents 
@@ -20,7 +20,7 @@
   #
   
   ## Description 
-   The Wag App will feature a map and display the route walked for the day with date & time stamp, and distance/ duration walked. This feature will also display in real time so that the owner may see if/ where their dog sitter/ helper is walking their furball in real time!
+   The MeoWoof is a mobile first designed application featuring a map and display the route walked for the day with date & time stamp, and distance/ duration walked. This feature will also display in real time so that the owner may see if/ where their dog sitter/ helper is walking their furball in real time!
 
   ## Project URL
   https://github.com/johnsonr84/meowoof
@@ -39,9 +39,8 @@
 
   ## Usage 
    
-
   ## Credits 
-  Me, myself and Irene 
+  Rob Johnson, Aubry Mark, Sergio Campos, Trae McNabb  
 
   ## License 
   This project is [mit](https://choosealicense.com/licenses/mit/) licensed.
@@ -70,9 +69,9 @@
   ## Designed and built by
   Author(s): Rob Johnson, Aubry Mark, Sergio Campos, Trae McNabb  
 
-  GitHub(s):
+  GitHub Contributors:
   https://github.com/johnsonr84/ 
-https://github.com/surge3216
-https://github.com/trae1357
-https://github.com/Aubsma
+  https://github.com/surge3216
+  https://github.com/trae1357
+  https://github.com/Aubsma
   
