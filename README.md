@@ -31,11 +31,13 @@
     <td>MeoWoof App Login Page</td>
      <td>MeoWoof Sign Up Page</td>
      <td>MeoWoof Dashboard</td>
+     <td>MeoWoof Walk History</td>
   </tr>
   <tr>
     <td><img src="/screenshots/login-design.png" height=400 alt="screenshot of MeoWoof login page"></td>
     <td><img src="screenshots/sign-up-design.png" height=400 alt="screenshot of MeoWoof sign up page"></td>
     <td><img src="/screenshots/dashboard-design.png" height=400 alt="screenshot of MeoWoof dashboard page"></td>
+    <td><img src="/screenshots/history-design.png" height=400 alt="screenshot of MeoWoof dashboard page"></td>
   </tr>
  </table>
 
