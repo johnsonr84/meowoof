@@ -2,46 +2,51 @@
 <html lang="en">
 
 <head>
-    <title>History</title>
+    <title>Walk</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- style.css  -->
     <link href="stylesheets/style.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/0bf24acb61.js" crossorigin="anonymous"></script>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&family=Roboto&display=swap" rel="stylesheet">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Leaflet an open-source JS library for mobile friendly interative maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
 
 </head>
 
 <body>
 
     <!---------- MAP GEOLOCATION ---------->
-    <div class="row">
-        <div class="col s4 offset-s1">
-           
-            </div>
-        </div>
+    <div id="mapid"></div>
 
-        <!---------- FOOTER ---------->
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12">
-                        MeoWoof
-                    </div>
+    <!---------- FOOTER ---------->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    MeoWoof
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
 
-
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="js/history.js"></script>
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/0bf24acb61.js" crossorigin="anonymous"></script>
+    <!-- Leaflet Library Scripts (must be AFTER Leaflet's CSS link) -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/history.js"></script>
 
 </body>
 
