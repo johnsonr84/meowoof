@@ -35,7 +35,8 @@ body {
 }
 
 .dogcat-banner {
-  height: 110px;
+  width: 100%;
+  height: auto;
   margin-bottom: -20px;
 }
 
