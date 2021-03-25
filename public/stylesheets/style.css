@@ -4,7 +4,7 @@ form.login {
 }
 
 body {
-  font-family: Roboto;
+  font-family:'Roboto';
 }
 
 .navbar {
@@ -63,3 +63,8 @@ footer {
   padding-top: 25px;
   padding-bottom: auto;
 }
+
+.fa-plus {
+  color: black;
+}
+
