@@ -65,12 +65,24 @@ footer {
   padding-bottom: auto;
 }
 
+.userbanner{
+  padding-top: auto !important;
+}
+.userPhoto{
+  max-width: 100%;
+  height: auto;
+}
+.userheader{
+  font-family: 'Roboto'; 
+}
 .fa-plus {
   color: black;
 }
+
 
 .profile-text{
   font-weight: bold;
   font-size: 19px;
 }
+
 
