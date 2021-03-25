@@ -65,16 +65,32 @@ footer {
   padding-top: 25px;
   padding-bottom: auto;
 }
-
+.uname{
+  margin-top: 2.5pc;
+  margin-bottom: 2.5pc;
+}
 .userbanner{
-  padding-top: auto !important;
+  padding: 0px auto;
 }
 .userPhoto{
   max-width: 100%;
   height: auto;
 }
 .userheader{
-  font-family: 'Roboto'; 
+  font-family: 'Roboto';
+  margin-bottom: 0; 
+}
+.uHeader{
+  border-bottom: 2px solid rgb(230, 225, 225);
+  margin-bottom: 1pc;
+}
+.pImage{
+  width: 100%;
+  height: auto;
+  padding-left: auto;
+  padding-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .fa-plus {
   color: black;
