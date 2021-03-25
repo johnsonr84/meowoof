@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Passport Authentication</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
+  <link href="stylesheets/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0bf24acb61.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&family=Roboto&display=swap" rel="stylesheet">  
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+
+    <nav class="nav-extended navbar-default blue">
+        <div class="center-align" class="container-fluid "> 
+            <img src="\assets\img\catdog.png" style="height: 100px"> Pet Name
+        </div>
+    </nav>
+
+      <form>
+        <div class="row">
+          <div class="input-field col s8 offset-s1">
+            <i class="prefix fas fa-paw"></i>
+            <input id="pet-type" type="text" class="validate">
+            <label for="icon_animal">Type (Dog or Cat)</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s8 offset-s2">
+            <i class="prefix fas fa-font"></i>
+            <input id="pet-name" type="tel" class="validate">
+            <label for="icon_A">Pet Name</label>
+          </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s8 offset-s2">
+              <i class="prefix fas fa-dog"></i>
+              <input id="breed" type="text" class="validate">
+              <label for="icon_dog">Breed</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s8 offset-s2">
+              <i class="prefix fas fa-clipboard-list"></i>
+              <input id="chip" type="number" class="validate">
+              <label for="icon_clipboard">Chip ID</label>
+            </div>
+         </div>
+         <div class="row">
+            <div class="input-field col s8 offset-s2">
+              <i class="prefix fas fa-birthday-cake"></i>
+              <input id="bday" type="date" class="validate">
+              <label for="icon_cake">Birthday</label>
+            </div>
+         </div>
+         <div class="row">
+            <div class="input-field col s8 offset-s2">
+              <i class="prefix fas fa-venus-mars"></i>
+              <input id="gender" type="text" class="validate">
+              <label for="icon_gender">Gender</label>
+            </div>
+         </div>
+         <div class="row">
+            <div class="input-field col s8 offset-s2">
+              <i class="prefix fas fa-notes-medical"></i>
+              <select multiple>
+                <option value="" disable selected>Neutered?</option>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+            </select>
+            <label>Neutered</label>
+              <input id="Neutered" type="text" class="validate">
+              <label for="icon_medical">Neutered (Yes/No)</label>
+            </div>
+         </div>
+         <div class="row">
+            <div class="input-field col s8 offset-s2">
+              <i class="prefix fas fa-tint"></i>              
+              <input id="animal-color" type="text" class="validate">
+              <label for="icon_telephone">Color</label>
+            </div>
+         </div>
+         <div class="row">
+            <div class="input-field col s8 offset-s2">
+              <i class="prefix fas fa-weight"></i>
+              <input id="animal-weight" type="number" class="validate">
+              <label for="icon_telephone">Weight</label>
+            </div>
+         </div>
+         <div class="row">
+            <div class="input-field col s8 offset-s2">
+              <i class="prefix fas fa-ruler-vertical"></i>
+              <input id="animal-height" type="number" class="validate">
+              <label for="icon_telephone">Height</label>
+            </div>
+         </div>
+      </form>
+
+      <div class="row">
+        <div class="col s8 offset-s2">
+          <button class="btn waves-effect waves-light" style="width: 100%; background-color: #7E4BA2;" type="submit" name="action">Add Pet
+            <i class="material-icons"></i>
+          </button>
+        </div>
+      </div>
+      <img src="/assets/img/cats-dogs.png" style="height: 200px" alt="logo banner with two dogs and two cats">
+      <footer style="background-color: #619DD0; height: 80px">
+       <center style="color: white; font-size: 30px; padding-top: 16px; font-family: Helvetica Neue;">MeoWoof</center>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+
+</body>
+</html>
