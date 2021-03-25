@@ -54,6 +54,10 @@ body {
   margin-right: -20px;
 }
 
+#mapid { 
+  height: 180px; 
+}
+
 footer {
   background-color: #619DD0;
   font-family: 'Loved by the King', cursive; 
