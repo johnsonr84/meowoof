@@ -76,6 +76,10 @@ footer {
   max-width: 100%;
   height: auto;
 }
+.petImage{
+  max-width: 100%;
+  height: 19px;
+}
 .userheader{
   font-family: 'Roboto';
   margin-bottom: 0; 
