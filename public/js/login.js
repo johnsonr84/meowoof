@@ -29,7 +29,7 @@ $(document).ready(() => {
       userPassword: userPassword
     })
       .then(() => {
-        window.location.replace("/members");
+        window.location.replace("/dashboard");
         // If there's an error, log the error
       })
       .catch(err => {
