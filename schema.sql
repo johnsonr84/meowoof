@@ -39,4 +39,11 @@ CREATE TABLE petProfile (
 );
 
 INSERT INTO petProfile (animal, petName, breed, chip, animalBirthday, gender, neutered, color, animalWeight)
-VALUES("Dog","Philly","Poodle","123456789","2017/01/01","Female","Yes","brown","35")
+VALUES("Dog","Philly","Poodle","123456789","2017/01/01","Female","Yes","brown","35");
+
+CREATE TABLE loginPage (
+    id int not null AUTO_INCREMENT,
+    userEmail VARCHAR (50) NULL,
+    userPassword VARCHAR (50) NULL,
+    PRIMARY KEY (id)
+);
