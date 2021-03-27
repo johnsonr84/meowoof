@@ -35,10 +35,11 @@ body {
 }
 
 .btn-floating.btn-large.waves-effect {
+  font-size: 12px;
+  border: 2px white; 
   height: 100px; 
   width: 100px; 
   background-color: #7E4BA2;
-  
 }
 
 .dogcat-banner {
