@@ -7,6 +7,28 @@ const tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const tiles = L.tileLayer(tileUrl, { attribution });
 tiles.addTo(mymap);
 
+
+// start and stop button
+
+var walk = document.getElementById("walk");
+
+walk.addEventListener("click", start);
+
+function start(){
+    console.log("started");
+    walk.removeEventListener("click", start);
+    walk.addEventListener("click", stop);
+    walk.value = "Stop";
+}
+
+function stop(){
+    console.log("stopped");
+    walk.removeEventListener("click", stop);
+    walk.addEventListener("click", start);
+    walk.value = "Start";
+}
+
+// stack overflow 
 // this.map.locate({
 //     watch: true,
 //     setView: true,
