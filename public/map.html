@@ -21,25 +21,29 @@
         crossorigin=""></script>
 </head>
 
-<style>
-    #walkMap {
-        height: 500px;
-    }
-</style>
 
 <body>
     <nav class="navbar">
         <div class="row">
-            <div class="col s4 offset-s4">
+            <div class="col s3 offset-s1" style="color: white; font-size: 12px;">
+                <p style="font-size: 12px; margin-bottom: -20px;">DISTANCE:</p>
+                <span class="walk-distance" id="distance" style="padding-left: 10px;">980 ft</span>
+            </div>
+            <div class="col s3">
                 <button class="btn-floating btn-large waves-effect" 
                     type="start" name="action" id="start-walk">Start Walk!
                 </button>
             </div>
+                <div class="col s3 offset-s2" style="color: white; font-size: 12px;">
+                    <p style="font-size: 12px; margin-bottom: -20px;">DURATION:</p>
+                    <span class="walk-timer" id="timer" style="padding-left: 5px;">1:45 min</span>
+            </div>
+           
         </div>
 
     </nav>
    
-    <div id="walkMap"></div>
+    <div id="map" style="height: 500px"></div>
    
 
     <!---------- FOOTER ---------->
