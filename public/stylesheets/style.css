@@ -33,14 +33,18 @@ body {
   font-size: 28px;
 }
 
-.btn-floating.btn-large.waves-effect {
-  font-size: 10px;
+#walk {
+  font-size: 12px;
   border-radius: 100%; 
+  color: white;
   border: 2px solid white;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   height: 100px; 
   width: 100px; 
   background-color: #7E4BA2;
+}
+
+#walk:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 
