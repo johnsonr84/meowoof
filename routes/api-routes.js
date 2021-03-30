@@ -29,6 +29,19 @@ module.exports = function(app) {
         res.status(401).json(err);
       });
   });
+// route to add pet
+  app.post("/api/petProfile", (req, res) => {
+    db.User.create({
+      userEmail: req.body.userEmail,
+      userPassword: req.body.userPassword
+    })
+      .then(() => {
+        res.json();
+      })
+      .catch(err => {
+        res.status(401).json(err);
+      });
+  });
 
   // Route for logging user out
   app.get("/logout", (req, res) => {

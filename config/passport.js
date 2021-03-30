@@ -12,7 +12,7 @@ passport.use(
       passwordField: "userPassword",
     },
     (userEmail, userPassword, done) => {
-      return done(null,{});
+   
       // When a user tries to sign in this code runs
       db.User.findOne({
         where: {
