@@ -41,4 +41,7 @@ module.exports = function(app) {
   app.get("/petProfile", isAuthenticated, (req, res) => {
     res.sendFile(path.join(__dirname, "../public/petProfile.html"));
   });
+  app.get("/addPet", isAuthenticated, (req, res) => {
+    res.sendFile(path.join(__dirname, "../public/petProfile.html"));
+  });
 };
